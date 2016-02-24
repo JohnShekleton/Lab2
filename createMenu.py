@@ -7,4 +7,5 @@ def createMenu(optionlist):
   for a in optionlist:
     optionstr = optionstr + str(ct) + ':' + ' ' + a + '\n'
     ct += 1
+
   return optionstr
